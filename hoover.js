@@ -6,6 +6,7 @@
 const fs = require('fs');
 
 //read input file
+// I am assuming that my input is clean always
 input = fs.readFileSync("input.txt").toString()
 
 //parse file and define initial conditions
