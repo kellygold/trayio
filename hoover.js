@@ -58,5 +58,6 @@ hooverPaths.map(direction => {
 }
 })
 
+//output the results, clean up the output from the JSON coords
 console.log(finalPosition.X + ' ' + finalPosition.Y)
 console.log(dirtCleanedCount)
