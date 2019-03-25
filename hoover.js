@@ -25,6 +25,7 @@ let dirtSpots = jsonCoordinates;
 let finalPosition = startPosition;
 let cleanedSpots = [];
 
+// Main function which moves the hoover bot and tracks any dirt spots cleaned
 hooverPaths.map(direction => {
     // Make sure we won't hit the edge, otherwise skip to the next move
     if ( (finalPosition.X < dimensions.X) && (finalPosition.Y < dimensions.Y) && (finalPosition.X > 0) && (finalPosition.Y > 0) ){
