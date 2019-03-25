@@ -24,8 +24,7 @@ let dimensions = jsonCoordinates.shift();
 let startPosition = jsonCoordinates.shift();
 let dirtSpots = jsonCoordinates;
 let finalPosition = startPosition;
-let dirtCleanedCount = 0;
-let cleanedSpots = []
+let cleanedSpots = [];
 
 hooverPaths.map(direction => {
     // Make sure we won't hit the edge, otherwise skip to the next move
@@ -49,7 +48,6 @@ hooverPaths.map(direction => {
         // check coordinates against known dirt to track cleaning progress
         dirtSpots.map(spotCoords => {
             if (spotCoords.X == finalPosition.X && spotCoords.Y == finalPosition.Y) {
-                dirtCleanedCount++
                 cleanedSpots.push(spotCoords)
             }
         })
