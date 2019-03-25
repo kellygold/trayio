@@ -1,5 +1,5 @@
 // Process the text file and define variables
-// track the current position of the hoover and when it matches a dirth position count+1
+// track the current position of the hoover and when it matches a dirt position count+1
 // We don't care about how efficent the robot is moving because moving instructions are in the program input
 // Let's get started
 
