@@ -3,7 +3,6 @@
 // We don't care about how efficent the robot is moving because moving instructions are in the program input
 // Let's get started
 
-//** After numerous checks and close debugging, the ouput of the example online looks to be 1 off, I believe the output should be 2*/
 
 const fs = require('fs');
 var _ = require('lodash');
