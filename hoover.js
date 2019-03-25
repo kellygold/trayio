@@ -18,7 +18,7 @@ let jsonCoordinates = inputArr.map(line => {
     return jsonCoords;
 })
 
-//define variables / parse the input data
+//define a few more variables 
 let dimensions = jsonCoordinates.shift();
 let startPosition = jsonCoordinates.shift();
 let dirtSpots = jsonCoordinates;
